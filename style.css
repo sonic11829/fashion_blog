@@ -1,0 +1,63 @@
+h1 {
+    color: red;
+}
+
+a {
+    color: red;
+    text-decoration: none;
+}
+
+#headerNav {
+    color: grey;
+    text-decoration: underline;
+}
+
+li {
+    list-style: none;
+}
+
+#continues {
+    color: red;
+    
+    display: flex;
+    justify-content: flex-end;
+}
+
+#navigate {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+h4 {
+    color: grey;
+}
+
+p {
+
+    color: grey;
+}
+
+p::first-letter {
+    font-size: 400%;
+    float: left;
+}
+
+article {
+    padding: 50px 0px 0px 0px;
+}
+
+#footer {
+    padding: 50px 0px 0px 0px;
+}
+
+time {
+    color: grey;
+}
+
+#pageLine {
+    
+    border: solid lightgrey;
+    border-width: 90%;
+    border-top: 2px;
+}
