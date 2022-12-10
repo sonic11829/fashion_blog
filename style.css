@@ -1,15 +1,42 @@
+body {
+    font-family: sans-serif;
+    min-height: 100%;
+    border: solid lightgrey;
+    border-left: 100%;
+    border-right: none;
+    border-top: 5px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+
 h1 {
-    color: red;
+    font-weight: lighter;
+    color: tomato;
+    font-size: 52px;
+}
+
+h2 {
+    font-weight: lighter;
+    font-size: 46px;
 }
 
 a {
-    color: red;
+    color: tomato;
     text-decoration: none;
 }
 
+header {
+    padding: 1rem 2rem 1rem 2rem
+}
+
 #headerNav {
-    color: grey;
+    color: lightgrey;
     text-decoration: underline;
+}
+
+nav {
+    padding: none;
 }
 
 li {
@@ -17,25 +44,27 @@ li {
 }
 
 #continues {
-    color: red;
-    
+    color: tomato;
+    font-weight: bold;
     display: flex;
     justify-content: flex-end;
 }
 
 #navigate {
+    font-weight: lighter;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
 h4 {
-    color: grey;
+    font-weight: lighter;
+    color: lightgrey;
 }
 
 p {
-
-    color: grey;
+    font-weight: lighter;
+    color: lightgrey;
 }
 
 p::first-letter {
@@ -44,20 +73,22 @@ p::first-letter {
 }
 
 article {
-    padding: 50px 0px 0px 0px;
+    padding: 1rem 2rem 4rem 2rem;
+}
+
+#pageLine {
+    padding: 0 0 2rem 0;
+    border-bottom: solid lightgrey;
 }
 
 #footer {
-    padding: 50px 0px 0px 0px;
+    padding: 1rem 2rem 1rem 2rem;
 }
 
 time {
     color: grey;
 }
 
-#pageLine {
-    
-    border: solid lightgrey;
-    border-width: 90%;
-    border-top: 2px;
+image {
+    width: 100%;
 }
